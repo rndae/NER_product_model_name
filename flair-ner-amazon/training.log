@@ -1,0 +1,49 @@
+2023-04-12 11:07:48,266 ----------------------------------------------------------------------------------------------------
+2023-04-12 11:07:48,267 Model: "SequenceTagger(
+  (embeddings): StackedEmbeddings(
+    (list_embedding_0): WordEmbeddings(
+      'glove'
+      (embedding): Embedding(400001, 100)
+    )
+    (list_embedding_1): FlairEmbeddings(
+      (lm): LanguageModel(
+        (drop): Dropout(p=0.25, inplace=False)
+        (encoder): Embedding(275, 100)
+        (rnn): LSTM(100, 1024)
+      )
+    )
+    (list_embedding_2): FlairEmbeddings(
+      (lm): LanguageModel(
+        (drop): Dropout(p=0.25, inplace=False)
+        (encoder): Embedding(275, 100)
+        (rnn): LSTM(100, 1024)
+      )
+    )
+  )
+  (word_dropout): WordDropout(p=0.05)
+  (locked_dropout): LockedDropout(p=0.5)
+  (embedding2nn): Linear(in_features=2148, out_features=2148, bias=True)
+  (rnn): LSTM(2148, 256, batch_first=True, bidirectional=True)
+  (linear): Linear(in_features=512, out_features=10, bias=True)
+  (loss_function): ViterbiLoss()
+  (crf): CRF()
+)"
+2023-04-12 11:07:48,269 ----------------------------------------------------------------------------------------------------
+2023-04-12 11:07:48,270 Corpus: "Corpus: 59009 train + 992 dev + 5008 test sentences"
+2023-04-12 11:07:48,271 ----------------------------------------------------------------------------------------------------
+2023-04-12 11:07:48,271 Parameters:
+2023-04-12 11:07:48,272  - learning_rate: "0.030000"
+2023-04-12 11:07:48,272  - mini_batch_size: "32"
+2023-04-12 11:07:48,273  - patience: "3"
+2023-04-12 11:07:48,273  - anneal_factor: "0.5"
+2023-04-12 11:07:48,274  - max_epochs: "10"
+2023-04-12 11:07:48,274  - shuffle: "True"
+2023-04-12 11:07:48,274  - train_with_dev: "False"
+2023-04-12 11:07:48,275  - batch_growth_annealing: "False"
+2023-04-12 11:07:48,276 ----------------------------------------------------------------------------------------------------
+2023-04-12 11:07:48,279 Model training base path: "flair-ner-amazon"
+2023-04-12 11:07:48,280 ----------------------------------------------------------------------------------------------------
+2023-04-12 11:07:48,280 Device: cuda:0
+2023-04-12 11:07:48,281 ----------------------------------------------------------------------------------------------------
+2023-04-12 11:07:48,281 Embeddings storage mode: none
+2023-04-12 11:07:48,282 ----------------------------------------------------------------------------------------------------
