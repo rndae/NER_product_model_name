@@ -3,7 +3,7 @@
 ## Overview
 <img src="https://github.com/user-attachments/assets/da72d1b1-5b52-4b9d-9631-2bc0850db412" alt="NER Model" width="420">
 
-<img src="https://github.com/user-attachments/assets/d075a828-3f16-48b6-85d4-2a8dbceb38a8" alt="NER Inference" height="199">
+<img src="https://github.com/user-attachments/assets/d075a828-3f16-48b6-85d4-2a8dbceb38a8" alt="NER Inference" height="150">
 
 This project implements Named Entity Recognition (NER) to extract brand and model names from product titles using a BI-LSTM-CRF model. The performance of the model is measured by its f-1 score, achieving high accuracy with both Flair and spaCy implementations.
 
