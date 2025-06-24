@@ -1,9 +1,9 @@
 # 🛍️ NER for Product Titles: Brand and Model Name Recognition
 
 ## Overview
-<img src="https://github.com/user-attachments/assets/da72d1b1-5b52-4b9d-9631-2bc0850db412" alt="NER Model" width="420" height="420">
+<img src="https://github.com/user-attachments/assets/da72d1b1-5b52-4b9d-9631-2bc0850db412" alt="NER Model" width="420">
 
-<img src="https://github.com/user-attachments/assets/bc3dbe2d-ce14-4278-9101-3a83ba8ce635" alt="NER Inference" width="420" height="420">
+<img src="https://github.com/user-attachments/assets/bc3dbe2d-ce14-4278-9101-3a83ba8ce635" alt="NER Inference" width="420">
 
 
 
